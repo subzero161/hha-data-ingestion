@@ -23,7 +23,7 @@ import PyPDF2 ## import PyPDF2 for pdf files
 #Data imported from https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers
 
 ## get tab names in xlsx file
-xls = xlrd.open_workbook('hha-data-ingestion/data/oasis_cross-sectional+longitudinal.xlsx', on_demand=True)
+xls = xlrd.open_workbook('hha-data-ingestion/data/oasis_cross-sectional+longitudinal.xls', on_demand=True)
 
 ##used this code to find the sheet names
 xls.sheet_names()
